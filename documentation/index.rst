@@ -65,7 +65,6 @@ Over the Summer of 2017, a grade-A team were assembled at the Alan Turing Instit
 +---------+---------------------------------------+
 | |alex|  | | **Alexandru Cioba**                 |
 |         | | PhD Student, UCL                    |
-|         | | Belter.                             |
 +---------+---------------------------------------+
 | |radek| | | **Radoslaw Kowalski**               |
 |         | | PhD Student, UCL                    |
