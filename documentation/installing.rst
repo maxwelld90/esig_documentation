@@ -23,3 +23,8 @@ Once installed, you can test that the install process worked as expected by tryi
 	True
 
 If you see ``True``, then all is well, and you're ready to go. If you don't see ``True``, but ``False`` and an error, check out :ref:`chap-troubleshooting`.
+
+
+Custom Library and Include Paths
+--------------------------------
+May be that you cannot install. 

@@ -1,3 +1,5 @@
+.. _chap-index:
+
 The ``esig`` Python Package
 ===========================
 
@@ -36,9 +38,14 @@ of length 3 or lower are integrated over. There is 1 combination of length 0, 2 
 
 Additionally, if you're interested in how the software was packaged up, you can look at the small reflection paper written by one of the Summer interns, David Maxwell. The paper is available for free on `arXiv <https://arxiv.org/>`_.
 
+
 Who is Involved?
 ----------------
-Over the Summer of 2017, a grade-A team were assembled at the Alan Turing Institute in London, England.
+Over the Summer of 2017, a team of interns worked on developing the ``esig`` package to a point where it was ready to be shown to the world. The interns were working at the `Alan Turing Institute <http://www.turing.ac.uk/>`_, London, England. They were supervised by Professor Terry Lyons of the Oxford-Man Institute, and Dr Hao Ni of UCL.
+
+We should note that the the underlying C++ libraries that allow ``esig`` to exist have been developed by Professor Lyons and his colleagues and students over a number of years leading up to this internship. Without their hard work, this project would not exist as it is today. In a future revision of this documentation, we'll update this portion with the names of those who were involved.
+
+For now though, here are the five people who have worked on developing ``esig`` in recent times.
 
 .. |terry| image:: images/terry.png
    :scale: 100%
@@ -56,19 +63,24 @@ Over the Summer of 2017, a grade-A team were assembled at the Alan Turing Instit
    :scale: 100%
    :align: top
 
-+---------+---------------------------------------+
-| |terry| | | **Professor Terry Lyons**           |
-|         | | Oxford-Man Institute                |
-+---------+---------------------------------------+
-| |hao|   | | **Dr Hao Ni**                       |
-|         | | Senior Lecturer, UCL                |
-+---------+---------------------------------------+
-| |alex|  | | **Alexandru Cioba**                 |
-|         | | PhD Student, UCL                    |
-+---------+---------------------------------------+
-| |radek| | | **Radoslaw Kowalski**               |
-|         | | PhD Student, UCL                    |
-+---------+---------------------------------------+
-| |david| | | **David Maxwell**                   |
-|         | | PhD Student, University of Glasgow  |
-+---------+---------------------------------------+
++---------+--------------------------------------------------------------------------------+
+| |terry| | | **Professor Terry Lyons**                                                    |
+|         | | Oxford-Man Institute                                                         |
+|         | | terry.lyons@maths.ox.ac.uk                                                   |
++---------+--------------------------------------------------------------------------------+
+| |hao|   | | **Dr Hao Ni**                                                                |
+|         | | Senior Lecturer, UCL                                                         |
+|         | | h.ni@ucl.ac.uk                                                               |
++---------+--------------------------------------------------------------------------------+
+| |alex|  | | **Alexandru Cioba**                                                          |
+|         | | PhD Student, UCL                                                             |
+|         | | a.cioba.12@ucl.ac.uk                                                         |
++---------+--------------------------------------------------------------------------------+
+| |radek| | | **Radoslaw Kowalski**                                                        |
+|         | | PhD Student, UCL                                                             |
+|         | | radoslaw.kowalski.14@ucl.ac.uk                                               |
++---------+--------------------------------------------------------------------------------+
+| |david| | | **David Maxwell**                                                            |
+|         | | PhD Student, University of Glasgow                                           |
+|         | | d.maxwell.1@research.gla.ac.uk                                               |
++---------+--------------------------------------------------------------------------------+
