@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'esig'
-copyright = '2017, Terry Lyons'
+copyright = '2017, David Maxwell and Terry Lyons'
 author = 'David Maxwell'
 
 # The version info for the project you're documenting, acts as replacement for
