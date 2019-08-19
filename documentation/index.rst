@@ -47,22 +47,28 @@ Once installed the ``esig`` package provides a very simple implementations for a
 
 To get started import tosig from esig:
 
+.. code::
+	
 >>> from esig import tosig as ts
 
 Then get help on the functionality tosig provides
+
+.. code::
+
 >>> help(ts)
+
 NAME
     esig.tosig - This is the tosig module from ESIG
 
 FUNCTIONS
     logsigdim(...)
-        logsigdim(signal_dimension, signature_degree) returns a Py_ssize_t integer giving the dimension of the log signature vector returned by array2logsig
+        logsigdim(signal_dimension, signature_degree) returns a Py_ssize_t integer giving the dimension of the log signature vector returned by stream2logsig
 
     logsigkeys(...)
         logsigkeys(signal_dimension, signature_degree) returns, in the order used by ...2logsig, a space separated ascii string containing the keys associated the entries in the log signature returned by ...2logsig
 
     sigdim(...)
-        sigdim(signal_dimension, signature_degree) returns a Py_ssize_t integer giving the length of the signature vector returned by array2logsig
+        sigdim(signal_dimension, signature_degree) returns a Py_ssize_t integer giving the length of the signature vector returned by stream2logsig
 
     sigkeys(...)
         sigkeys(signal_dimension, signature_degree) returns, in the order used by ...2sig, a space separated ascii string containing the keys associated the entries in the signature returned by ...2sig
