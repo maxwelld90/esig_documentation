@@ -91,6 +91,7 @@ enumerates a basis for the tensor algebra on an alphabet of size 2 up to degree 
 ``esig`` has other helper functions that can be used to access the data effectively.
 
 .. code::
+
 	>>> ts.sigkeys(2,4).strip().split(" ")[ts.sigdim(2,2):ts.sigdim(2,3)]
     ['(1,1,1)', '(1,1,2)', '(1,2,1)', '(1,2,2)', '(2,1,1)', '(2,1,2)', '(2,2,1)', '(2,2,2)']
 
@@ -99,6 +100,7 @@ trims the full basis to only those elements that have degree three in the tensor
 Very similar code works for calculating, accessing and manipulating the basis for the lie elements used for log signatures and the log signature itself:
 
 .. code::
+
     >>> ts.logsigkeys(2,4).strip().split(" ")[ts.logsigdim(2,2):ts.logsigdim(2,3)]
     ['[1,[1,2]]', '[2,[1,2]]']
 
