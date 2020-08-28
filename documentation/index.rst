@@ -3,7 +3,7 @@
 The ``esig`` Python Package
 ===========================
 
-This is the online documentation for the Python ``esig`` package. Below you'll find the table of contents.
+This is the online documentation for the Python ``esig`` package up to version 0.7.1 - the package is currently undergoing revision to provide substantial additional functionality and speed. The version 0.7.3 only supports Python >= 3.5 and 64bit. It does not support 32 bit installations. It has the same interface with a new functionality in "recombine" that can reduce clouds of paths to a small reweighted subcollection while retaining their expected signature. This code relies on MKL, OpenMP, and heavy parallel linear algebra. As a result the build process from the gz file has changed from this documentation. The wheel, with pip install esig will install on Linux (ManyLinux2014), Mac and Windows but requires a current version of pip (in particular the one shipped with Ubuntu 18.04 is too old - so update it first). If you have trouble please let us know and install 0.7.1. Below you'll find the table of contents for version 0.6.    
 
 .. toctree::
    :maxdepth: 3
